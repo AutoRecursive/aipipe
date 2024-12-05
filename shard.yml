@@ -1,0 +1,18 @@
+name: aipipe
+version: 0.1.0
+
+authors:
+  - Your Name <your@email.com>
+
+targets:
+  aipipe:
+    main: src/aipipe.cr
+
+dependencies:
+  cling:
+    github: devnote-dev/cling
+    version: ~> 1.0.0
+
+crystal: '>= 1.9.0'
+
+license: MIT 
